@@ -12,14 +12,6 @@ class App extends React.Component {
             waterLevel: 50
         }
     }
-    
-class App extends React.Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            waterLevel: 50
-            }
-        }
 
     handleAdd = () => {
         if (this.state.waterLevel ===100) {
